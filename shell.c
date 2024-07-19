@@ -244,7 +244,7 @@ int sphs_ls(char **args) {
     return 1;
 }
 int sphs_zeta(char **args) {
-    char *zeta1 = "zeta1.exe";
+    char *zeta1 = "zeta.exe";
     char *zeta_args[] = { zeta1, NULL };
     return sphs_launch(zeta_args);
 }
